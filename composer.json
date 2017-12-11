@@ -1,12 +1,12 @@
 {
-  "name": "jinnguyen/divbox",
+  "name": "ttelang/divbox",
   "description": "DivBox is simple, easy style format, no need extra markup and is used to overlay images on the current page through the power and flexibility of jQuery selector",
   "authors": [
         {
-            "name": "Jin Nguyen",
-            "email": "w2ajax@gmail.com"
+            "name": "Tarun Telang",
+            "email": "tarun.telang@gmail.com"
         }
    ],
-  "license": "GPL License",
-  "homepage": "http://jquery.phpbasic.com/divbox"
+  "license": "Apache 2.0",
+  "homepage": "https://ttelang.github.io/divbox/"
 }
