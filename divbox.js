@@ -319,7 +319,7 @@
               }
               if (_cfg.click_full_image) zoom = 1;
             }
-          };
+          }
           var top = sizesystem[3] + Math.round((sizesystem[5] - imgH) / 2);
           var left = Math.round((sizesystem[4] - imgW) / 2);
           fn.animate(top, left, imgW, imgH, function(o) {
@@ -340,7 +340,7 @@
             }).click(function() {
               window.open(src, 'wDivBox');
             });
-          }, false, caption)
+          }, false, caption);
           //IE 
           Img.onload = function() {};
         };
