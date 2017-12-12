@@ -6,7 +6,6 @@
 #divbox{
 	background:  #000000 ;
 	opacity: .5;
-	filter:alpha(opacity=50);
 	margin: 0;
 	padding: 0;
 	
@@ -70,7 +69,6 @@
 	display: none;
 	background: #ccc;
 	opacity: .5;
-	filter:alpha(opacity=50);
 	color: #000;
 	padding-left: 30px;
 	padding-right: 50px;
