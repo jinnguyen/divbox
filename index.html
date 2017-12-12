@@ -3,19 +3,21 @@ layout: default
 title: Divbox
 description: DivBox plugin is simple, easy style format, no need extra markup and is used to overlay images on the current page through the power and flexibility of jQuery's selector. jDivBox is a plugin for jQuery.
 ---
-  <head>
-    <link href="css/divbox.css" rel="stylesheet" type="text/css" media="screen" />
-    <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script src="divbox.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-          $('a.lightbox').divbox();
-          $('a.ajax').divbox({
-              type: 'ajax'
-          });
-      });
-    </script>
-  </head>
+<head>
+  <link href="css/divbox.css" rel="stylesheet" type="text/css" media="screen" />
+  <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="divbox.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $('a.lightbox').divbox();
+        $('a.ajax').divbox({
+            type: 'ajax'
+        });
+    });
+  </script>
+</head>
+
+<body>   
 # DivBox
 
 **DivBox** plugin is simple, easy style format, no need extra markup and is used to overlay images on the current page through the power and flexibility of jQuery´s selector.
@@ -36,5 +38,5 @@ __DivBox__ is a plugin for jQuery..
 * <a href="videos/video.flv" class="lightbox">FLV file</a> 
 * <a href="videos/flash.swf" class="lightbox">SWF file</a>
 * <a href="videos/video.mp4" class="lightbox">MP4 file</a>    
-
+</body>
 
