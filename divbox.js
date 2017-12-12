@@ -1,8 +1,5 @@
 /*
-	DivBox v1.3
-	@copyright: http://wwww.phpbasic.com
-	@Download: http://code.google.com/p/divbox
-	@Contact: w2ajax@gmail.com for lastest version.
+	DivBox v1.4
 */
 (function($) {
   $.fn.divbox = function(opt, clickObj) {
@@ -10,7 +7,7 @@
       width: null,
       height: null,
       speed: 500,
-      animate: 'default', // currently we are only support: default &  explore & none
+      animate: 'default', // currently we only support: default &  explore & none
       left: null,
       top: null,
       type: null,
