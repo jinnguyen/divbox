@@ -87,24 +87,3 @@
 }
 
 
-/* IE6 FixPNG */
-*html #divbox_frame .closed{
-	background-image: none;
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/close.png);
-}
-*html #divbox_frame .prev{
-	background-image: none;
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/left.png);
-}
-*html #divbox_frame .prevDisabled{
-	background-image: none;
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/leftDisabled.png);
-}
-*html #divbox_frame .next{
-	background-image: none;
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/right.png);
-}
-*html #divbox_frame .nextDisabled{
-	background-image: none;
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/rightDisabled.png);
-}
