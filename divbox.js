@@ -1,8 +1,6 @@
 /*
 	DivBox v1.4
 */
-$(document).ready(function () {
-  
 (function($) {
   $.fn.divbox = function(opt, clickObj) {
     var _cfg = {
@@ -606,4 +604,3 @@ $(document).ready(function () {
     return arrayPageSize;
   }
 })(jQuery);
-});
