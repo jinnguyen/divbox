@@ -3,21 +3,7 @@ layout: default
 title: "Divbox"
 permalink: index.html
 ---
- <head>    
-    <link href="{{ site.baseurl }}/docs/css/divbox.css" rel="stylesheet" type="text/css" media="screen" />
-    <script src="{{ site.baseurl }}/lib/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script src="{{ site.baseurl }}/divbox.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-          $('a.lightbox').divbox();
-          $('a.ajax').divbox({
-              type: 'ajax'
-          });
-      });
-    </script>
-  </head>
 
-<body>
   <div>
     <h1>DivBox</h1>
     <p>
@@ -50,5 +36,5 @@ permalink: index.html
         <li><a href="{{ site.baseurl }}/docs/videos/video.mp4" class="lightbox">MP4 file</a> </li>
      </ul>
   </div>
-</body>
+
 
