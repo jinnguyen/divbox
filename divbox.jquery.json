@@ -1,0 +1,39 @@
+{
+	"name": "divbox",
+	"version": "1.4.0",
+	"title": "Divbox",
+	"author": {
+		"name": "jinnguyen"
+	},
+	"licenses": [{
+		"type": "Apache-2.0",
+		"url": "http://www.apache.org/licenses/"
+	}],
+	"dependencies": {
+		"jquery": ">=1.3.2"
+	},
+	"description": "DivBox is simple, easy style format, no need extra markup and is used to overlay images on the current page through the power and flexibility of jQuery selector.",
+	"keywords": [
+		"modal",
+		"slideshow",
+		"ui",
+		"javascript",
+		"jquery",
+		"lightbox",
+		"multibox",
+		"flash",
+		"youtube",
+		"video",
+		"image"
+	],
+	"docs": "https://ttelang.github.io/divbox/",
+	"demo": "https://ttelang.github.io/divbox/",
+	"download": "https://github.com/ttelang/divbox/releases/download/v1.4.0/divbox-1.4.0.zip",
+	"bugs": "https://github.com/FormstoneClassic/Boxer/issues",
+	"homepage": "http://classic.formstone.it/boxer/",
+	"maintainers": {
+		"name": "Tarun Telang",
+		"email": "tarun.telang@gmail.com",
+		"url": "https://github.com/ttelang"
+	}
+}
