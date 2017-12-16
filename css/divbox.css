@@ -1,87 +1,84 @@
 /* CSS Document */
-#divbox a{
-	margin: 0;
-	padding:0;
+#divbox a {
+  margin: 0;
+  padding: 0;
 }
-#divbox{
-	background:  #000000 ;
-	opacity: .5;
-	margin: 0;
-	padding: 0;
-	
+#divbox {
+  background: #000000;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
 }
-#divbox_data{
-	margin: 0;
-	padding: 0;
+#divbox_data {
+  margin: 0;
+  padding: 0;
 }
-#divbox_frame{ margin: 0; padding: 0;}
-
-#divbox_frame{
-	background: #fff url(../images/loader.gif) no-repeat center center;
-	border: 10px solid #eee;
+#divbox_frame {
+  margin: 0;
+  padding: 0;
+  background: #fff url(../images/loader.gif) no-repeat center center;
+  border: 10px solid #eee;
 }
-#divbox_frame.white{
-	background: none;
-	background-color: white;
+#divbox_frame.white {
+  background: none;
+  background-color: white;
 }
-
-#divbox_frame .closed{
-	position: absolute;
-	z-index: 1006;
-	background:url(../images/close.png) no-repeat center center;
-	width: 24px;
-	height: 24px;
-	right: -20px;
-	top: -20px;
-	cursor: pointer;
-	
+#divbox_frame .closed {
+  position: absolute;
+  z-index: 1006;
+  background: url(../images/close.png) no-repeat center center;
+  width: 24px;
+  height: 24px;
+  right: -20px;
+  top: -20px;
+  cursor: pointer;
 }
-#divbox_frame .prev,#divbox_frame .next,#divbox_frame .number{
-	position: absolute;
-	z-index: 1006;
-	width: 30px;
-	height: 24px;
-	cursor: pointer;
-	
+#divbox_frame .prev,
+#divbox_frame .next,
+#divbox_frame .number {
+  position: absolute;
+  z-index: 1006;
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
 }
-#divbox_frame .prev,#divbox_frame .prevDisabled{
-	background:url(../images/left.png) no-repeat top center;
-	left: 0;
-}
-
-#divbox_frame .prevDisabled{
-	background:url(../images/leftDisabled.png) no-repeat top center;
-}
-#divbox_frame .next,#divbox_frame .nextDisabled{
-	background: url(../images/right.png) no-repeat top right;
-	right: 2px;
-}
-#divbox_frame .number{
-	right: 30px;
-	width: 20px;
-}
-#divbox_frame .nextDisabled{
-	background:url(../images/rightDisabled.png) no-repeat top right;
+#divbox_frame .prev,
+#divbox_frame .prevDisabled {
+  background: url(../images/left.png) no-repeat top center;
+  left: 0;
 }
 
-
-#divbox_frame .caption{
-	display: none;
-	background: #ccc;
-	opacity: .5;
-	color: #000;
-	padding-left: 30px;
-	padding-right: 50px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	overflow: hidden;
+#divbox_frame .prevDisabled {
+  background: url(../images/leftDisabled.png) no-repeat top center;
 }
-#divbox_frame .zoom{
-	cursor: url(../images/zoomin.cur), default;
+#divbox_frame .next,
+#divbox_frame .nextDisabled {
+  background: url(../images/right.png) no-repeat top right;
+  right: 2px;
 }
-#divbox_ajax{
-	display: none; 
-	width: 400px;
+#divbox_frame .number {
+  right: 30px;
+  width: 20px;
+}
+#divbox_frame .nextDisabled {
+  background: url(../images/rightDisabled.png) no-repeat top right;
 }
 
-
+#divbox_frame .caption {
+  display: none;
+  background: #ccc;
+  opacity: 0.5;
+  color: #000;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+#divbox_frame .zoom {
+  cursor: url(../images/zoomin.cur), default;
+}
+#divbox_ajax {
+  display: none;
+  width: 400px;
+}
