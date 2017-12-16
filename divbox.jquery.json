@@ -31,9 +31,9 @@
 	"download": "https://github.com/ttelang/divbox/releases/download/v1.4.0/divbox-1.4.0.zip",
 	"bugs": "https://github.com/FormstoneClassic/Boxer/issues",
 	"homepage": "http://classic.formstone.it/boxer/",
-	"maintainers": {
+	"maintainers": [{
 		"name": "Tarun Telang",
 		"email": "tarun.telang@gmail.com",
 		"url": "https://github.com/ttelang"
-	}
+	}]
 }
