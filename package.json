@@ -1,6 +1,6 @@
 {
   "name": "divbox",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "DivBox is simple, easy style format, no need extra markup and is used to overlay images on the current page through the power and flexibility of jQuery selector",
   "dependencies": {
     "jquery": "3.2.1"
