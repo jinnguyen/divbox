@@ -196,12 +196,12 @@
         });
         $(oFrame).addClass('white');
         var c = $(oFrame).find('.caption');
-        if (_cfg.caption != false && (caption != '' || _cfg.caption_control == true)) {
+        if (_cfg.caption !== false && (caption !== '' || _cfg.caption_control === true)) {
           var cH = c.outerHeight(true);
           $(oFrame).animate({
             height: h + cH
           }).find('.caption').show();
-          if (_cfg.caption_control == true) { // caption control
+          if (_cfg.caption_control === true) { // caption control
             var btn_top = h + parseInt(c.css('padding-top')); // 12 = 1/2 height of button prev/next icon
             $(_cfg.btn_prev + ',' + _cfg.btn_next + ',' + _cfg.btn_number).css({
               top: btn_top
@@ -238,7 +238,7 @@
             if (typeof(fnclosed) == 'function') fnclosed($('#divbox_content'));
             fn.closed();
           }
-          if (_cfg.caption != '' && _cfg.caption_control == true) {
+          if (_cfg.caption !== '' && _cfg.caption_control === true) {
             if (k == 38 || k == 39) {
               fn.nextItem(index);
               return false;
@@ -250,7 +250,7 @@
           }
         });
         try {
-          var drag_handle = _cfg.caption == false ? '#divbox_frame' : '#divbox_frame .caption';
+          var drag_handle = _cfg.caption === false ? '#divbox_frame' : '#divbox_frame .caption';
           $("#divbox_frame").draggable({
             handle: $(drag_handle)
           }).css({
